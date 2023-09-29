@@ -31,7 +31,9 @@ const Main = () => {
               Daniel Crha
             </span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Full-Stack Software Engineer</h1>
+          <h1 className='py-2 text-gray-700'>
+            A Full-Stack Software Developer
+          </h1>
           <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
             I&apos;m a recent Laurier graduate with a passion for Web
             Development and AI. I love creating stunning and responsive web

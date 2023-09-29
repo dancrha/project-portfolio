@@ -26,10 +26,10 @@ const About = () => {
             I just recently graduated from Wilfrid Laurier University with a
             Bachelors Degree in Computer Science. Since then I have been working
             on personal projects to learn new technologies and create an
-            impressive portfolio in hopes of landing my first software
-            engineering job. I&apos;ve discovered my areas of specialization in
-            software engineering, focusing on web development and artificial
-            intelligence. I thoroughly enjoy the process of creating a
+            impressive portfolio in hopes of landing my first job as a software
+            developer. I&apos;ve discovered my areas of specialization in
+            software development, focusing on web development and artificial
+            intelligence. I thoroughly enjoy the process of building a
             full-stack web app from start to finish, there&apos;s nothing like
             seeing your hard work come to life. I relish the challenge and savor
             the rewards.

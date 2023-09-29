@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
@@ -9,10 +10,14 @@ const Skills = () => {
           Skills
         </p>
         <h2 className='py-4'>What I Can Do</h2>
-        <h4>Proficient:</h4>
+        <h4 className='pb-4'>Proficient:</h4>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='p-6 shadow-lg rounded-xl box '
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -26,9 +31,14 @@ const Skills = () => {
                 <h3>Javascript</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
+
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-6 shadow-lg rounded-xl'
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -42,9 +52,14 @@ const Skills = () => {
                 <h3>Typescript</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
+
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-6 shadow-lg rounded-xl'
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -58,10 +73,14 @@ const Skills = () => {
                 <h3>HTML</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className=' box p-6 shadow-lg rounded-xl '
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -75,10 +94,14 @@ const Skills = () => {
                 <h3>CSS</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-6 shadow-lg rounded-xl py-8'
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -92,11 +115,15 @@ const Skills = () => {
                 <h3>React</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
-            <div className='grid grid-cols-2 justify-center items-center'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='p-6 shadow-lg rounded-xl  py-8'
+          >
+            <div className='box grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
                   src='/../assets/skills/next-js.svg'
@@ -109,10 +136,14 @@ const Skills = () => {
                 <h3>Next.js</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-6 shadow-lg rounded-xl  py-8'
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -126,10 +157,14 @@ const Skills = () => {
                 <h3>MongoDB</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-6 shadow-lg rounded-xl '
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -143,10 +178,14 @@ const Skills = () => {
                 <h3>Tailwind CSS</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-6 shadow-lg rounded-xl  py-8'
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -160,10 +199,14 @@ const Skills = () => {
                 <h3>Python</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-6 shadow-lg rounded-xl '
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -177,10 +220,14 @@ const Skills = () => {
                 <h3>Java</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-6 shadow-lg rounded-xl  py-8'
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -194,10 +241,14 @@ const Skills = () => {
                 <h3>Firebase</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-6 shadow-lg rounded-xl  py-8'
+          >
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -211,13 +262,18 @@ const Skills = () => {
                 <h3>Github</h3>
               </div>
             </div>
-          </div>
-
-          <h4>Some Experience:</h4>
+          </motion.div>
         </div>
-        <div className='grid sm:grid-cols-4 md:grid-cols-9  gap-2'>
+
+        {/* SOME EXPERIENCE SECTION */}
+        <h4 className='pt-8 pb-4'>Some Experience:</h4>
+        <div className='grid sm:grid-cols-4 md:grid-cols-9 gap-2'>
           {/* Skill */}
-          <div className='p-4 py-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-4 py-8 shadow-lg rounded-xl w-auto flex-1'
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -231,10 +287,14 @@ const Skills = () => {
                 <h3>C</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-3 pt-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-3 pt-8 shadow-lg rounded-xl  w-auto'
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -248,10 +308,14 @@ const Skills = () => {
                 <h3>C++</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-3 pt-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-3 pt-10 shadow-lg rounded-xl w-auto'
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -265,10 +329,14 @@ const Skills = () => {
                 <h3>PHP</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-3 pt-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-3 pt-10 shadow-lg rounded-xl  w-auto'
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -282,10 +350,14 @@ const Skills = () => {
                 <h3>MySQL</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-4 pt-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto '>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-4 pt-10 shadow-lg rounded-xl  w-auto '
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -299,10 +371,14 @@ const Skills = () => {
                 <h4>Node.js</h4>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-3 pt-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-3 pt-10 shadow-lg rounded-xl  w-auto'
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -316,10 +392,14 @@ const Skills = () => {
                 <h3>Prisma</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-3 pt-11 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-3 pt-11 shadow-lg rounded-xl  w-auto'
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -333,10 +413,14 @@ const Skills = () => {
                 <h3>Stripe</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-3 pt-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-3 pt-10 shadow-lg rounded-xl  w-auto'
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -350,10 +434,14 @@ const Skills = () => {
                 <h3>Docker</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-3 pt-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-1 pt-10 shadow-lg rounded-xl w-auto h-auto'
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -367,10 +455,14 @@ const Skills = () => {
                 <h3>Vite</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div className='p-1 pt-8 pr-5 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-1 pt-8 pr-5 shadow-lg rounded-xl  w-auto'
+          >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
@@ -384,12 +476,14 @@ const Skills = () => {
                 <h3>Android</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Skill */}
-          <div
-            className='p-3 pt-7
-           shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className='box p-3 pt-7
+           shadow-lg rounded-xl w-auto'
           >
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
@@ -404,7 +498,7 @@ const Skills = () => {
                 <h3>iOS</h3>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
