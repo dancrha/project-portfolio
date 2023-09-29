@@ -12,7 +12,7 @@ const Skills = () => {
         <h4>Proficient:</h4>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -28,7 +28,7 @@ const Skills = () => {
             </div>
           </div>
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -44,7 +44,7 @@ const Skills = () => {
             </div>
           </div>
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -61,7 +61,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -78,7 +78,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 py-8'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -95,7 +95,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 py-8'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -112,7 +112,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 py-8'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -129,7 +129,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -146,7 +146,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 py-8'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -163,7 +163,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -180,7 +180,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 py-8'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -197,7 +197,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 py-8'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 py-8'>
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
@@ -302,13 +302,13 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-3 pt-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <div className='p-3 pt-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
                   src='/../assets/skills/prisma-3.svg'
                   alt='/'
-                  width={32}
+                  width={24}
                   height={32}
                 />
               </div>
@@ -319,13 +319,13 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-3 pt-9 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <div className='p-3 pt-11 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
                   src='/../assets/skills/stripe-2.svg'
                   alt='/'
-                  width={32}
+                  width={24}
                   height={32}
                 />
               </div>
@@ -336,7 +336,7 @@ const Skills = () => {
           </div>
 
           {/* Skill */}
-          <div className='p-3 pt-9 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
+          <div className='p-3 pt-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
             <div className='grid grid-cols-2 justify-center items-center '>
               <div className='m-auto'>
                 <Image
