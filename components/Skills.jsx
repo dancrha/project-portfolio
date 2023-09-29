@@ -215,7 +215,7 @@ const Skills = () => {
 
           <h4>Some Experience:</h4>
         </div>
-        <div className='grid sm:grid-cols-6 sm: md:grid-cols-9  gap-2'>
+        <div className='grid sm:grid-cols-4 md:grid-cols-9  gap-2'>
           {/* Skill */}
           <div className='p-4 py-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 w-auto'>
             <div className='grid grid-cols-2 justify-center items-center '>
