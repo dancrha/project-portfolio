@@ -36,18 +36,43 @@ const Contact = () => {
               <div>
                 <p className='uppercase pt-8'>Connect with me</p>
                 <di className='flex items-center justify-between py-4'>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/in/danielcrha/",
+                        "_blank"
+                      )
+                    }
+                    className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                  >
                     <FaLinkedinIn />
                   </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <div
+                    onClick={() =>
+                      window.open("https://github.com/danielcrha", "_blank")
+                    }
+                    className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                  >
                     <FaGithub />
                   </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <div
+                    onClick={() => {
+                      window.location.href = "mailto:crha.daniel@gmail.com";
+                    }}
+                    className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                  >
                     <AiOutlineMail />
                   </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <a
+                    href='/../assets/resume.pdf'
+                    download='Daniel Crha Resume.pdf'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </di>
               </div>
             </div>

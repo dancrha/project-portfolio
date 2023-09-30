@@ -16,7 +16,7 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Mango AI SAAS'
+            title='Mango AI SaaS'
             backgroundImg={MangoAI}
             projectUrl='/aisaas'
             desc='React ∙ Next.js 13 ∙ Typescript ∙ Tailwind CSS ∙ MySQL ∙ Prisma ∙ Stripe ∙ Clerk ∙
