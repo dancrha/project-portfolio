@@ -1,5 +1,10 @@
 // import Image from "next/image";
 import React from "react";
+import ProjectItem from "./ProjectItem";
+import MangoAI from "../public/assets/projects/mangoaisaas.png";
+import ebayClone from "../public/assets/projects/ebayclone.png";
+import netflixClone from "../public/assets/projects/netflixclone.png";
+import sushiRestaurant from "../public/assets/projects/sushi.png";
 
 const Projects = () => {
   return (
@@ -10,9 +15,26 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#176B87] to-[#ff585f]'>
-            {/* <Image src={} alt="/"></Image> */}
-          </div>
+          <ProjectItem
+            title='Mango AI SAAS'
+            backgroundImg={MangoAI}
+            projectUrl='/mangoaisaas'
+          />
+          <ProjectItem
+            title='Ebay Clone'
+            backgroundImg={ebayClone}
+            projectUrl='/ebayclone'
+          />
+          <ProjectItem
+            title='Mango AI SAAS'
+            backgroundImg={netflixClone}
+            projectUrl='/netflixclone'
+          />
+          <ProjectItem
+            title='Mango AI SAAS'
+            backgroundImg={sushiRestaurant}
+            projectUrl='/sushi'
+          />
         </div>
       </div>
     </div>
