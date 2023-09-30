@@ -41,18 +41,40 @@ const Main = () => {
             technologies.
           </p>
           <div className='flex max-w-[330px] m-auto py-4 items-center justify-between'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <div
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/danielcrha/", "_blank")
+              }
+              className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+            >
               <FaLinkedinIn />
             </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <div
+              onClick={() =>
+                window.open("https://github.com/danielcrha", "_blank")
+              }
+              className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+            >
               <FaGithub />
             </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <div
+              className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+              onClick={() => {
+                window.location.href = "mailto:crha.daniel@gmail.com";
+              }}
+            >
               <AiOutlineMail />
             </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <BsFillPersonLinesFill />
-            </div>
+            <a
+              href='/../assets/resume.pdf'
+              download='Daniel Crha Resume.pdf'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <BsFillPersonLinesFill />
+              </div>
+            </a>
           </div>
         </div>
       </div>

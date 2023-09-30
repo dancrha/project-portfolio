@@ -19,26 +19,27 @@ const Projects = () => {
             title='Mango AI SAAS'
             backgroundImg={MangoAI}
             projectUrl='/aisaas'
-            desc='Next.js 13 ∙  React ∙ Typescript ∙ Tailwind ∙ MySQL ∙ Prisma ∙ Stripe ∙ Clerk ∙
+            desc='React ∙ Next.js 13 ∙ Typescript ∙ Tailwind CSS ∙ MySQL ∙ Prisma ∙ Stripe ∙ Clerk ∙
             Crisp'
           />
           <ProjectItem
             title='Netflix Clone'
             backgroundImg={netflixClone}
             projectUrl='/netflixclone'
-            desc='Javascript, Typescript, HTML, CSS, React, Next.js'
+            desc='React ∙ Next.js 13 ∙ Typescript ∙ Tailwind CSS ∙ Prisma ∙ MongoDB ∙
+            NextAuth'
           />
           <ProjectItem
             title='eBay Clone'
             backgroundImg={ebayClone}
             projectUrl='/ebayclone'
-            desc='Javascript, HTML, CSS, Next.js'
+            desc='Next.js 13 ∙ Tailwind CSS ∙ Prisma ∙ Stripe'
           />
           <ProjectItem
             title='Sushi Restaurant Website (Frontend Project)'
             backgroundImg={sushiRestaurant}
             projectUrl='/sushi'
-            desc='Javascript, HTML, CSS, React'
+            desc='Javascript ∙ HTML ∙ CSS'
           />
         </div>
       </div>

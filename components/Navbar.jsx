@@ -156,24 +156,42 @@ const Navbar = () => {
                 Let&apos;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <a
-                    href='https://www.linkedin.com/in/danielcrha/'
-                    target='_blank'
-                  >
-                    <FaLinkedinIn />
-                  </a>
+                <div
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/in/danielcrha/",
+                      "_blank"
+                    )
+                  }
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                >
+                  <FaLinkedinIn />
                 </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <a href='https://github.com/danielcrha' target='_blank'>
-                    <FaGithub />
-                  </a>
+                <div
+                  onClick={() =>
+                    window.open("https://github.com/danielcrha", "_blank")
+                  }
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                >
+                  <FaGithub />
                 </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                <div
+                  onClick={() => {
+                    window.location.href = "mailto:crha.daniel@gmail.com";
+                  }}
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                >
                   <AiOutlineMail />
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <BsFillPersonLinesFill />
+                  <a
+                    href='/../assets/resume.pdf'
+                    download='Daniel Crha Resume.pdf'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <BsFillPersonLinesFill />
+                  </a>
                 </div>
               </div>
             </div>

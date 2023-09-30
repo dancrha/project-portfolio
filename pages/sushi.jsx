@@ -27,13 +27,10 @@ const sushi = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className='pt-4'>
-            This eBay clone project is a comprehensive e-commerce platform
-            developed using React, Next.js 13, Tailwind CSS, Prisma, and Stripe.
-            This platform simplifies online transactions with user-friendly
-            features and efficient product management powered by Prisma. Stripe
-            integration ensures secure payment processing. Explore this project
-            to see how these technologies work together to create a seamless
-            e-commerce experience.
+            This project is a fake sushi restaurant website. It showcases my
+            knowledge of basic Javascript, HTML, and CSS, along with some
+            animations from AOS. This project was made to practice my front-end
+            work, so there is nothing on the back-end.
           </p>
           <button
             className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200 '
