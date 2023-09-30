@@ -1,10 +1,10 @@
 import React from "react";
-import MangoAI from "../public/assets/projects/mangoaisaas.png";
+import netflixClone from "../public/assets/projects/netflixclone.png";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const aisaas = () => {
+const netflixclone = () => {
   return (
     <div className='w-full '>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -13,14 +13,14 @@ const aisaas = () => {
           className='absolute z-1 bg-black/80'
           layout='fill'
           objectFit='cover'
-          src={MangoAI}
+          src={netflixClone}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Mango AI SaaS</h2>
+          <h2 className='py-2'>Netflix Clone</h2>
           <h3>
-            React / Next.js 13 / Typescript / Tailwind / MySQL / Prisma / Stripe
-            / Clerk / Crisp
+            React / Next.js 13 / Typescript / Tailwind CSS / Prisma / MongoDB /
+            NextAuth
           </h3>
         </div>
       </div>
@@ -30,25 +30,36 @@ const aisaas = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className='pt-4'>
-            This Software-as-a-Service (SaaS) platform offers a versatile range
-            of AI-driven capabilities. Users can engage in conversations with AI
-            (OpenAI API), create images, videos, compose music, and even
-            generate code. The platform seamlessly integrates with
-            industry-leading services such as Clerk for user authentication,
-            Stripe for payment processing (enabling Pro Plan upgrades), Prisma
-            for database management, and Crisp for customer support. Built on
-            the robust Next.js 13&apos;s App Router, the platform prioritizes
-            responsiveness, efficiency, and user-centric design principles.
+            This project is a Netflix clone developed using Next.js 13, React,
+            Tailwind CSS, Prisma, MongoDB, and NextAuth. It offers a modern
+            streaming experience with a responsive interface and sleek design.
+            Prisma and MongoDB handle content management, while NextAuth
+            provides secure user authentication. Explore this project to
+            understand how these technologies come together to create an
+            immersive entertainment platform.
           </p>
           <button
             className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200 '
             onClick={() =>
-              window.open("https://ai-saas-rho-nine.vercel.app/", "_blank")
+              window.open(
+                "https://netflix-clone-git-master-danielcrha.vercel.app/auth",
+                "_blank"
+              )
             }
           >
             Demo
           </button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <button
+            onClick={() =>
+              window.open(
+                "https://github.com/danielcrha/netflix-clone",
+                "_blank"
+              )
+            }
+            className='px-8 py-2 mt-4 hover:scale-105 ease-in duration-200 '
+          >
+            Code
+          </button>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
@@ -72,27 +83,15 @@ const aisaas = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                MySQL
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
                 Prisma
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                Stripe
+                MongoDB
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                Clerk
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Crisp
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                OpenAI API
+                NextAuth
               </p>
             </div>
           </div>
@@ -105,4 +104,4 @@ const aisaas = () => {
   );
 };
 
-export default aisaas;
+export default netflixclone;

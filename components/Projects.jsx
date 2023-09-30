@@ -19,7 +19,8 @@ const Projects = () => {
             title='Mango AI SAAS'
             backgroundImg={MangoAI}
             projectUrl='/aisaas'
-            desc='Javascript, Typescript, HTML, CSS, React, Next.js'
+            desc='Next.js 13 ∙  React ∙ Typescript ∙ Tailwind ∙ MySQL ∙ Prisma ∙ Stripe ∙ Clerk ∙
+            Crisp'
           />
           <ProjectItem
             title='Netflix Clone'
@@ -28,7 +29,7 @@ const Projects = () => {
             desc='Javascript, Typescript, HTML, CSS, React, Next.js'
           />
           <ProjectItem
-            title='Ebay Clone'
+            title='eBay Clone'
             backgroundImg={ebayClone}
             projectUrl='/ebayclone'
             desc='Javascript, HTML, CSS, Next.js'

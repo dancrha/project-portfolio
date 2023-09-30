@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 const ProjectItem = ({ title, backgroundImg, projectUrl, desc }) => {
   return (
     <motion.div
-      whileHover={{ scale: 1.075 }}
-      transition={{ type: "spring", stiffness: 700, damping: 20 }}
+      whileHover={{ scale: 1.04 }}
+      transition={{ type: "spring", stiffness: 800, damping: 30 }}
       className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#176B87] to-[#ff585f] '
     >
       <Image
