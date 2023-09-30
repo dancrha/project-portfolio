@@ -105,8 +105,9 @@ const Skills = () => {
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='/../assets/skills/react.png'
+                  src='/./assets/skills/react.png'
                   alt='/'
+                  typeof=''
                   width={64}
                   height={64}
                 />
