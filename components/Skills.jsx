@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import reacticon from "../public/assets/skills/react.png";
 
 const Skills = () => {
   return (
@@ -105,7 +106,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='/./assets/skills/react.png'
+                  src={reacticon}
                   alt='/'
                   typeof=''
                   width={64}
