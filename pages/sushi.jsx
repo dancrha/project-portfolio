@@ -30,7 +30,9 @@ const sushi = () => {
             This project is a fake sushi restaurant website. It showcases my
             knowledge of basic Javascript, HTML, and CSS, along with some
             animations from AOS. This project was made to practice my front-end
-            work, so there is nothing on the back-end.
+            skills, so there is nothing on the back-end. I used this project to
+            learn about different CSS styling techniques as well as play around
+            with animations.
           </p>
           <button
             className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200 '
