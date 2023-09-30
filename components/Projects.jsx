@@ -19,21 +19,25 @@ const Projects = () => {
             title='Mango AI SAAS'
             backgroundImg={MangoAI}
             projectUrl='/mangoaisaas'
+            desc='Javascript, Typescript, HTML, CSS, React, Next.js'
+          />
+          <ProjectItem
+            title='Netflix Clone'
+            backgroundImg={netflixClone}
+            projectUrl='/netflixclone'
+            desc='Javascript, Typescript, HTML, CSS, React, Next.js'
           />
           <ProjectItem
             title='Ebay Clone'
             backgroundImg={ebayClone}
             projectUrl='/ebayclone'
+            desc='Javascript, HTML, CSS, Next.js'
           />
           <ProjectItem
-            title='Mango AI SAAS'
-            backgroundImg={netflixClone}
-            projectUrl='/netflixclone'
-          />
-          <ProjectItem
-            title='Mango AI SAAS'
+            title='Sushi Restaurant Website (Frontend Project)'
             backgroundImg={sushiRestaurant}
             projectUrl='/sushi'
+            desc='Javascript, HTML, CSS, React'
           />
         </div>
       </div>
